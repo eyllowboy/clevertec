@@ -1,0 +1,22 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-person
+      author: siarhei
+      dbms: 'postgresql'
+      changes:
+        - createTable:
+            tableName: discount_card
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(50)
+              - column:
+                  name: amount
+                  type: double precision

@@ -1,0 +1,5 @@
+1 tomato   true  5
+2 bananas  true  10
+3 apple    false 7
+4 potatoes false 3
+5 cucumber true  5

@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: classpath:/db/changelog/create-discount_card-table.yaml
+  - include:
+      file: classpath:/db/changelog/create-product-table.yaml
+  - include:
+      file: classpath:/db/changelog/fill_card_discount.sql
+  - include:
+      file: classpath:/db/changelog/fill_product.sql

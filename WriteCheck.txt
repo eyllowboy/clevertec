@@ -1,0 +1,9 @@
+CASH RECEIPT
+Check from supermarket
+DATA_AND_TIME 2022-12-18T23:19:11.846416
+AMOUNT  DESCRIPTION  PRICE  PROMOTIONAL_ITEM_DISCOUNT  TOTAL
+1       tomato        5.0                 0.0          5.0
+2       bananas        10.0                 0.0          20.0
+TAXABLE_TOTAL 25.0
+DISCOUNT_%5.0  1.25
+TOTAL 23.75
