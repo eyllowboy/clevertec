@@ -28,6 +28,7 @@ docker-compose up -d
 DirectorBuilder класс собирает чек,
 CreateBuilderByInitialData класс возвращает реализацию CheckBuilder в зависимости отправляли
 ли мы имя файлов из которых будут читаться данные
+
 SuperMarketCheckBuilder, SuperMarketCheckBuilderGetDataFromFile, SuperMarketCheckBuilderGetDataFromDB
 реализации CheckBuilder для сборки чека
 WriteCheckInformation класс записывает созданные чек в файл WriteCheck.txt
