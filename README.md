@@ -6,7 +6,7 @@ java -jar clevertec-0.0.1-SNAPSHOT.jar 1-1 2-2 card-124 card.txt product.txt
 
 При таких параметрах читает данные продуктов и карт, и записывает чек в файл WriteCheck.txt,
  которые расположены в корне
-Если не указывать card.txt или product.txt берет данные из кода в тексте:
+Если не указывать card.txt или product.txt берет данные из кода :
 
 java -jar clevertec-0.0.1-SNAPSHOT.jar 3-3 2-1 card-124
 
