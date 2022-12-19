@@ -31,4 +31,5 @@ CreateBuilderByInitialData класс возвращает реализацию 
 
 SuperMarketCheckBuilder, SuperMarketCheckBuilderGetDataFromFile, SuperMarketCheckBuilderGetDataFromDB
 реализации CheckBuilder для сборки чека
+
 WriteCheckInformation класс записывает созданные чек в файл WriteCheck.txt
